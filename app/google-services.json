@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264857285481",
+    "project_id": "proactive-abacus",
+    "storage_bucket": "proactive-abacus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264857285481:android:bf6117c6a6aa08fab803f8",
+        "android_client_info": {
+          "package_name": "com.nak.vserveu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264857285481-taidg691lrcaue4tr5d091ojt1dapqpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR8RNMgn0fjnAlxkh0QdChg7nTOorcp4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264857285481-taidg691lrcaue4tr5d091ojt1dapqpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

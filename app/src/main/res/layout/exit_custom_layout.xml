@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#653256">
+
+<!--    Image Alert Layout id: lay_alert_image-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/lay_alert_image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--       <ImageView-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"></ImageView>-->
+<!--    </LinearLayout>-->
+
+<!--    Msg Alert Layout id:lay_alert_msg-->
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/lay_alert_msg"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/alert"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Do you really want to quit?"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="22sp"
+            android:shadowColor="#000000"
+            />
+
+<!--        Yes btn-->
+        <Button
+            android:id="@+id/dialog_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:text="YES"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="22sp"
+            android:background="#a8201a"
+            android:shadowColor="#000000"
+            ></Button>
+
+<!--NO BTN-->
+        <Button
+            android:id="@+id/dialog_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:text="NO"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="22sp"
+            android:background="#0f8b8d"
+            android:shadowColor="#000000"></Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

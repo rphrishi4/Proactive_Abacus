@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nak.vserveu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/proactive_launch_round"
+        android:label="Proactive Abacus"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="com.nak.vserveu.About"
+            android:exported="false" />
+        <activity
+            android:name="com.nak.vserveu.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nak.vserveu.LevelsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.nak.vserveu.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.nak.vserveu.QuestionsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.vikasojha.quizbee.QuestionsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nak.vserveu.ResultActivity" />
+    </application>
+
+</manifest>

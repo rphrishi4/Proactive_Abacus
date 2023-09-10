@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!--Question Text View-->
+
+        <TextView
+            android:id="@+id/txt_abt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="About"
+            android:textColor="#564138"
+            android:textSize="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/abt_prop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:shadowColor="#000000"
+            android:gravity="center"
+            android:text="Shree Proactive Abacus\n301 Motibhai tower, A-wing, Badlapur (w)\n9657560560/ 9820382314"
+            android:textAlignment="center"
+            android:textColor="#564138"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/txt_abt_classes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="This Application is developed for Proactive Abacus Academy. \nProactive Abacus Math Learning application is designed for your kids to learn calculations. Also, helps kids learn to count in their minds quickly and without errors, improve their abstract and logical thinking, sharpen their intellect, develop perseverance, raise their level of IQ, and improve their analysis and memory abilities.
+
+Proactive Abacus designed especially for preschoolers and early years to learn and enhance their Math skills. They can learn addition, subtraction, multiplication and Division with the help of our learning app.
+
+Our app is designed keeping in mind the cognitive ability of 3 to 8 years old. Aiming to make math champs! Math techniques, easy methods ,and strategies shared makes a child’s mind sharp and quick at solving sums. Solving arithmetic problems is the basics for higher level maths and all kids should be able to solve simple addition and subtraction by the age of 5 years.  Practice is the only way to sharpen math skills
+"
+
+            android:textColor="#564138"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="Developed By"
+            android:textColor="#564138"
+            android:textSize="42dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_abt_classes" />
+
+        <ImageView
+            android:id="@+id/img_vserveu"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/vserveu"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dev"
+            android:autoLink="web"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Contact Us: +91 7020098529"></TextView>
+
+    </LinearLayout>
+</ScrollView>
